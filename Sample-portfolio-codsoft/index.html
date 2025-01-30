@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your Name - Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar">
+      <div class="logo">
+        <h1>GOKUL_@</h1>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <header class="header">
+      <div class="logo">
+        <h1>I'm GOKUL</h1>
+        <p>SOFTWARE ENGINEER | FULL STACK DEVELOPER</p>
+      </div>
+    </header>
+
+    <section id="about" class="about">
+      <div class="bio">
+        <h2>About Me</h2>
+        <p>
+          I'm a passionate full-stack web developer with a focus on both
+          front-end and back-end technologies. I specialize in designing
+          websites using React and Tailwind CSS, while continuing to expand my
+          knowledge in Node.js, MongoDB, and DevOps. I have a growing interest
+          in blockchain technologies, especially Ethereum, and am always eager
+          to learn more about digital marketing. Over the past few years, I have
+          worked on several projects, including a Telegram bot, a
+          Rock-Paper-Scissors game, and a responsive to-do list website.
+          Currently, I am deepening my expertise in React.js and Next.js while
+          actively seeking freelance projects to enhance my skills further.
+          Alongside my technical skills, I strive to build a comprehensive
+          understanding of performance management, Git, and version control. My
+          goal is to become proficient in full-stack development, eventually
+          venturing into e-commerce website development, and contributing to
+          exciting, forward-thinking projects in the tech industry.
+        </p>
+      </div>
+    </section>
+
+    <section id="skills" class="skills">
+      <h2>Skills & Expertise</h2>
+      <ul>
+        <li>HTML, CSS, JavaScript</li>
+        <li>React.js, Node.js</li>
+        <li>Tailwind CSS, Bootstrap</li>
+        <li>Version Control (Git)</li>
+        <li>Responsive Web Design</li>
+      </ul>
+    </section>
+
+    <section id="projects" class="projects">
+      <h2>My Projects</h2>
+      <div class="project-card">
+        <div class="project-info">
+          <div>
+            <h3>To-do List</h3>
+            <p>Description of the project and technologies used.</p>
+          </div>
+          <div>
+            <h3>Rock-Paper-Scissor game</h3>
+            <p>Description of the project and technologies used.</p>
+          </div>
+          <div>
+            <h3>Telegram Bot</h3>
+            <p>Description of the project and technologies used.</p>
+          </div>
+          <div>
+            <h3>Project-x</h3>
+            <p>Description of the project and technologies used.</p>
+          </div>
+          <div>
+            <h3>Project-y</h3>
+            <p>Description of the project and technologies used.</p>
+          </div>
+          <div>
+            <h3>Project-z</h3>
+            <p>Description of the project and technologies used.</p>
+          </div>
+          <div>
+            <h3>Project-v</h3>
+            <p>Description of the project and technologies used.</p>
+          </div>
+          <div>
+            <h3>Project-x2</h3>
+            <p>Description of the project and technologies used.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer id="contact" class="footer">
+      <h1>Contact me</h1>
+      <h2>Download My Resume</h2>
+      <a href="resume.pdf" download="Your_Name_Resume.pdf" class="download-link"
+        >Download PDF</a
+      >
+      <h2>Contact Me</h2>
+      <p>Email: sampleportfolio@example.com</p>
+      <p>Phone: (123) 456-7890</p>
+      <p>&copy; 2025 Gokul_@. All rights reserved.</p>
+      <a href="https://www.linkedin.com/in/your-profile">LinkedIn</a> |
+      <a href="https://github.com/your-username">GitHub</a>
+    </footer>
+
+    <script>
+      // Toggle Navbar on small screens
+      const navLinks = document.querySelector(".nav-links");
+      const toggleButton = document.createElement("button");
+      toggleButton.textContent = "☰";
+      document.querySelector(".navbar").appendChild(toggleButton);
+
+      toggleButton.addEventListener("click", () => {
+        navLinks.classList.toggle("active");
+      });
+    </script>
+  </body>
+</html>
